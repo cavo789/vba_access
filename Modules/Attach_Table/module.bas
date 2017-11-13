@@ -70,21 +70,21 @@ Sub Test()
 
     ' Import the table
 	'
-    '    Using trusted connection
-    'Call Attach_Table(True, "vwebudget.yourict.net", "eBudget", "dbo.Bistel", "Bistel", True)
+	'    Using trusted connection
+    'Call Attach_Table(True, "servername", "dbName", "dbo.Data", "tblData", True)
 	'
-    '    Using application's login
-    'Call Attach_Table(True, "vwebudget.yourict.net", "eBudget", "dbo.Bistel", "Bistel", _
-	'	False, "userEBUDLaw_R", "v9lVd6QzVDX6DSDlyiuJ")
+	'    Using application's login
+    'Call Attach_Table(True, "servername", "dbName", "dbo.Data", "tblData", _
+	'	False, "username", "password")
         
     ' Attach the table
 	'
-    '    Using trusted connection
-    'Call Attach_Table(False, "vwebudget.yourict.net", "eBudget", "dbo.Bistel", "Bistel", _
+	'    Using trusted connection
+    'Call Attach_Table(False, "servername", "dbName", "dbo.Data", "tblData", _
 	'    True)
 	'
-    '    Using application's login
-    'Call Attach_Table(False, "vwebudget.yourict.net", "eBudget", "dbo.Bistel", _
-	'    "Bistel", False, "userEBUDLaw_R", "v9lVd6QzVDX6DSDlyiuJ")
+	'    Using application's login
+    'Call Attach_Table(False, "servername", "dbName", "dbo.Data", _
+	'    "tblData", False, "username", "password")
    
 End Sub
