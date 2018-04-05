@@ -68,23 +68,23 @@ End Sub
 
 Sub Test()
 
-    ' Import the table
+	' Import the table
 	'
 	'    Using trusted connection
-    'Call Attach_Table(True, "servername", "dbName", "dbo.Data", "tblData", True)
+	'Call Attach_Table(True, "servername", "dbName", "dbo.Data", "tblData", True)
 	'
 	'    Using application's login
-    'Call Attach_Table(True, "servername", "dbName", "dbo.Data", "tblData", _
+	'Call Attach_Table(True, "servername", "dbName", "dbo.Data", "tblData", _
 	'	False, "username", "password")
         
-    ' Attach the table
+	' Attach the table
 	'
 	'    Using trusted connection
-    'Call Attach_Table(False, "servername", "dbName", "dbo.Data", "tblData", _
+	'Call Attach_Table(False, "servername", "dbName", "dbo.Data", "tblData", _
 	'    True)
 	'
 	'    Using application's login
-    'Call Attach_Table(False, "servername", "dbName", "dbo.Data", _
+	'Call Attach_Table(False, "servername", "dbName", "dbo.Data", _
 	'    "tblData", False, "username", "password")
    
 End Sub
