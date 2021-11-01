@@ -1,6 +1,6 @@
-![Banner](images/banner.jpg)
-
 # MS Access VBA Snippets
+
+![Banner](./banner.svg)
 
 > See also my [vbs_scripts repository](https://github.com/cavo789/vbs_scripts#classesmsaccessvbs) which contains vbs scripts for, o.a.t., working with MS Access database in a batch mode
 
